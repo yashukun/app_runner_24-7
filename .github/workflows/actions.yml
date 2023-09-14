@@ -1,7 +1,6 @@
 name: run main.py
 
 on:
-  workflow_dispatch: # for manual workflow trigger
   schedule:
     - cron: "*/1 * * * *" # runs at every 12AM UTC
 
