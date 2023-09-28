@@ -26,6 +26,6 @@ except KeyError:
 
 if __name__ == "__main__":
     logger.info(f"Token value: {SOME_SECRET}")
-    response = requests.get('https://speedx-test.onrender.com/api/bookings/allbooking')
+    response = requests.get('https://speedx-kzwc.onrender.com/api/bookings/allbooking')
     if response.status_code == 200:
         data = response.json()
